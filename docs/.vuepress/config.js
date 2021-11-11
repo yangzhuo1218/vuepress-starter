@@ -6,13 +6,13 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/foo/' },
       {
-        text: 'Languages',
+        text: '扩展',
         ariaLabel: 'Language Menu',
         items: [
           {
-            text: 'Chinese',
+            text: '宝塔',
             items: [
-              { text: 'Chinese1', link: '/language/japanese1/' },
+              { text: '数据库', link: '/mysql/' },
               { text: 'Chinese2', link: '/language/japanese2/' },
             ],
           },
